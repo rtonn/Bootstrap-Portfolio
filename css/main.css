@@ -8,7 +8,7 @@ body html {
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat; 
-    background-image: url('../images/bg6.jpg');
+    background-image: url('../images/bk4.jpg');
 }
 
 .section-padding {
@@ -18,7 +18,7 @@ body html {
 .line {
     height: 2px;
     width: 100px;
-    background: black; 
+    background: whitesmoke; 
     margin: 0 auto 50px;  
 }
 
@@ -40,7 +40,7 @@ body html {
 }
 
 .nav-item {
-    color: black; 
+    color: whitesmoke; 
     padding: 0 20px; 
     text-transform: uppercase; 
 }
@@ -63,6 +63,15 @@ body html {
 }
 
 .img-fluid {
-    box-shadow: 15px 15px 8px grey;
+    box-shadow: 15px 15px 8px black;
 }
 
+#text-background{
+    background-color: rgba(243, 235, 223, 0.7);
+    padding: 1rem;
+    color:black;
+}
+
+.row{
+    color: whitesmoke;
+}
